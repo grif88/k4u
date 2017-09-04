@@ -1,0 +1,13 @@
+Options FollowSymLinks
+Order allow,deny
+Allow from all
+AuthName "k4u.Net: Billing page"
+AuthType Basic
+AuthUserFile /var/www-ssl/include/.htpasswd
+require valid-user
+
+<files p24pay.php>
+    Satisfy Any
+    Order allow,deny
+    Allow from all
+</files>

@@ -1,0 +1,27 @@
+print "
+<!-- PRESENT -->
+<div id=\"ded1\" style=\"position:fixed; left:0px; top:0px;\"><img id=\"img_dl\" width=\"200\" height=\"140\" src=\"img2/ded1.gif\" border=\"0\" /></div>
+<script language=\"javascript\">
+/* start position begin */
+height11 = window.innerHeight;
+img_hei1 = parseInt(document.getElementById('img_dl').height);
+start_pos_top1 = height11 - img_hei1 - 5;
+document.getElementById('ded1').style.top = start_pos_top1+'px';
+/* start position end */
+</script>
+<!-- PRESENT -->
+<!-- ELKA -->
+<div id=\"elka1\" style=\"position:fixed; left:0px; top:0px;\"><img id=\"img_e1\" width=\"200\" height=\"252\" src=\"img2/elka1.gif\" border=\"0\" /></div>
+<script language=\"javascript\">
+/* start position begin */
+height22 = window.innerHeight;
+width22 = window.innerWidth;
+img_hei2 = parseInt(document.getElementById('img_e1').height);
+img_wid2 = parseInt(document.getElementById('img_e1').width);
+start_pos_top2 = height22 - img_hei2 - 5;
+start_pos_left2 = width22 - img_wid2 - 5
+document.getElementById('elka1').style.top = start_pos_top2+'px';
+document.getElementById('elka1').style.left = start_pos_left2+'px';
+/* start position end */
+</script>
+<!-- ELKA -->\n";

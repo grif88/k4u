@@ -1,0 +1,7 @@
+Options FollowSymLinks
+Order allow,deny
+Allow from all
+AuthName "k4u: Admin page"
+AuthType Basic
+AuthUserFile /var/www/admin/include/.htpasswd
+require valid-user
