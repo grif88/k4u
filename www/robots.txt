@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /admin
-Disallow: /cmd
-Disallow: /files
-Disallow: /load_s
-Disallow: /old
-Allow: /

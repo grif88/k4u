@@ -1,3 +1,0 @@
-<?php
-print "document.getElementById('tr_add').outerHTML='<tr align=\"left\"><td colspan=\"2\"><form method=\"post\">Введите Ник (Имя) <input required title=\"Введите Ваше имя\" placeholder=\"Имя\" type=\"text\" name=\"name\" maxlength=\"30\" size=\"32\" /><br><br>Введите свой e-mail <input required title=\"Формат: qwerty@domain.ua\" placeholder=\"qwe@dom.ua\" type=\"text\" name=\"mail\" maxlength=\"50\" size=\"52\" /><br><br>Оставте отзыв:<br><textarea required placeholder=\"Введите текст сообщения\" title=\"Введите текст сообщения\" name=\"text\" cols=\"100\" rows=\"10\"></textarea><br><br><input type=\"hidden\" value=\"post_click\" name=\"cmd\" /><input type=\"submit\" value=\"Добавить\" /></form><hr></td></tr>';";
-?>
